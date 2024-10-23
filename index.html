@@ -1,12 +1,18 @@
+html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saudação</title>
+    <style>
+        body {
+            background-color: #010C12;
+            color: white;
+        }
+    </style>
     <script>
         function saudarUsuario() {
-            // Substitua "Nome do Celular" pelo nome do seu dispositivo
             var nomeCelular = "Devtechs";
             document.getElementById("saudacao").innerText = "Olá Usuário do: " + nomeCelular;
         }
